@@ -2,7 +2,7 @@ import speech_recognition as sr
 import PyAudio
 
 r = sr.Recognizer()
-
+#speech added
 with sr.Microphone() as source:
     print('Speak anything ')
     audio = r.listen(source,timeout=1,phrase_time_limit=10)
